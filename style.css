@@ -195,6 +195,9 @@ body {
 .parrafo-main {
   margin: 65px 57px 0;
 }
+.third-main {
+  margin-bottom: 50px;
+}
 @media (min-width: 769px) {
   .parrafo-main {
     margin-bottom: 108px;
