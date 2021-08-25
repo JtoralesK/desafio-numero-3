@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 body {
   background-image: url(/imagenes/puntitos.png);
@@ -288,25 +288,29 @@ body {
 .footer-body {
   display: flex;
   flex-direction: column;
-  margin: 90px 0 120px 20px;
+  margin: 60px 20px 90px;
 }
 @media (min-width: 769px) {
   .footer-body {
-    width: 20%;
-    margin: 100px 0 50px 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
 .mi-logo-icon {
   width: 107px;
-  margin: 53px 20px 0;
+  margin: 20px 0 0;
 }
 @media (min-width: 769px) {
   .mi-logo-icon {
-    width: 200px;
-    margin-top: 0;
-    margin-left: 120px;
-    position: absolute;
+    width: 180px;
+    height: 80px;
+    margin-left: 40px;
+  }
+  .body-icons {
+    width: 25%;
   }
 }
 
@@ -316,8 +320,6 @@ body {
 }
 @media (min-width: 769px) {
   .imagen-footer- {
-    width: 50px;
-    height: 50px;
   }
   .fila {
     margin-top: 20px;
