@@ -1,1 +1,1 @@
-https://github.com/JtoralesK/desafio-numero-3
+https://jtoralesk.github.io/desafio-numero-3/
